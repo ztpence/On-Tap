@@ -1,0 +1,61 @@
+DROP DATABASE IF EXISTS onTap_db;
+
+CREATE DATABASE onTap_db;
+
+USE onTap_db;
+
+CREATE TABLE barList (
+    id INT(11) AUTO_INCREMENT NOT NULL,
+    bar_name VARCHAR(100) NOT NULL,
+    address VARCHAR(25) NOT NULL,
+    street_name VARCHAR(50) NOT NULL,
+    city VARCHAR(50) NOT NULL,
+    zip_code INT(9) NOT NULL,
+    website VARCHAR(50),
+    menu VARCHAR(50),
+    tap_number INT(3),
+    badList BOOLEAN,
+    bathroom VARCHAR(40),
+    PRIMARY KEY(id)    
+)
+
+CREATE TABLE tapList (
+    id INT(11) AUTO_INCREMENT NOT NULL,
+    location INT NOT NULL REFERENCES barList(id),
+    tap01 VARCHAR NULL,
+    tap02 VARCHAR NULL,
+    tap03 VARCHAR NULL,
+    tap04 VARCHAR NULL,
+    tap05 VARCHAR NULL,
+    tap06 VARCHAR NULL,
+    tap07 VARCHAR NULL,
+    tap08 VARCHAR NULL,
+    tap09 VARCHAR NULL,
+    tap10 VARCHAR NULL,
+    tap11 VARCHAR NULL,
+    tap12 VARCHAR NULL,
+    tap13 VARCHAR NULL,
+    tap14 VARCHAR NULL,
+    tap15 VARCHAR NULL,
+    tap16 VARCHAR NULL,
+    tap17 VARCHAR NULL,
+    tap18 VARCHAR NULL,
+    tap19 VARCHAR NULL,
+    tap20 VARCHAR NULL,
+    tap21 VARCHAR NULL,
+    tap22 VARCHAR NULL,
+    tap23 VARCHAR NULL,
+    tap24 VARCHAR NULL,
+    tap25 VARCHAR NULL,
+    tap26 VARCHAR NULL,
+    tap27 VARCHAR NULL,
+    tap28 VARCHAR NULL,
+    tap29 VARCHAR NULL,
+    tap30 VARCHAR NULL,
+    tap31 VARCHAR NULL,
+    tap32 VARCHAR NULL,
+    tap33 VARCHAR NULL,
+    tap34 VARCHAR NULL,
+    tap35 VARCHAR NULL,
+    tap36 VARCHAR NULL
+)

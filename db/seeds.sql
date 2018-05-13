@@ -1,0 +1,2 @@
+INSERT INTO barList (bar_name, address, street_name, city, zip_code, tap_number, badList, restroom) VALUES (Crow Bar, 555, S GILBERT, GILBERT, 85297-1234, 8, 1, sparkling)
+INSERT INTO tapList (1, Duff, Duff Light, Big Tire, Flotsam Stoudt, Kerrs Light, OHNO IPA, Murrys, Dick-n Cider )
