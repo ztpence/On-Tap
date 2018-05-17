@@ -116,7 +116,7 @@ VALUES
 ('Zen Burger', 'Gilbert','Stella Artois', 'Belgin Pilsner'),
 ('Zen Burger', 'Gilbert','Dos XX', 'Mexican Lager'),
 ('Zen Burger', 'Gilbert','Bud Light', 'American Lager'),
-('San Tan Brewing Co', 'Chandler','Devils Ale', 'American Plae Ale')
+('San Tan Brewing Co', 'Chandler','Devils Ale', 'American Pale Ale')
 ('San Tan Brewing Co', 'Chandler','HopShock IPA', 'IPA')
 ('San Tan Brewing Co', 'Chandler','Mr Pineapple', 'Wheat Ale-Fruit Ale')
 ('San Tan Brewing Co', 'Chandler','San Tan Hefeweizen', 'Hefeweizen')
