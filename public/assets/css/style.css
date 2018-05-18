@@ -1,0 +1,42 @@
+.display-4 {
+	font-family: pacifico;
+	text-align: center;
+	margin-bottom: 40px;
+	margin-top: -10px;
+	font-size: 100px;
+}
+
+.btn-circle {
+	background-color: #F84221;
+	border: none;
+
+
+}
+
+.jumbotron {
+	background-color: #FDD65B;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active {
+	color: #F84221;
+}
+
+.row {
+	margin-left: 180px;
+	margin-right: 180px;
+}
+
+.card {
+	border: none;
+}
+
+#beer_list_body {
+    background-image: url("assets/images/beerWall.jpg");
+
+}
+
+/*.billboard {
+	background-image: url('../images/bartenderTaps.jpg');
+}
+
+/*background-color: #FDD65B;
