@@ -17,6 +17,10 @@
 	background-color: #FDD65B;
 }
 
+body {
+	background-color: #FDD65B;
+}
+
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active {
 	color: #F84221;
 }
@@ -28,6 +32,10 @@
 
 .card {
 	border: none;
+}
+
+.card-body {
+	background-image: url("assets/images/0161.jpg")
 }
 
 #beer_list_body {
