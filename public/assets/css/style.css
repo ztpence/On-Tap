@@ -1,7 +1,7 @@
 .display-4 {
 	font-family: pacifico;
 	text-align: center;
-	margin-bottom: 40px;
+	margin-bottom: 55px;
 	margin-top: -10px;
 	font-size: 100px;
 }
@@ -30,10 +30,20 @@
 	border: none;
 }
 
-#beer_list_body {
+.beer_list_body {
     background-image: url("assets/images/beerWall.jpg");
 
 }
+
+.dropdown {
+	float: right;
+	margin-right: 400px;
+}
+
+.image {
+	width: 100%;
+}
+
 
 /*.billboard {
 	background-image: url('../images/bartenderTaps.jpg');
