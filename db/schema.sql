@@ -11,6 +11,6 @@ CREATE TABLE beerList (
     beer_name VARCHAR(50) NOT NULL,
     beer_type VARCHAR(50),
     PRIMARY KEY(id)    
-)
+);
 
 
