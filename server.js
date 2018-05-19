@@ -1,29 +1,21 @@
-// requrieng modules
 var express = require('express');
 var bodyParser = require('body-parser');
-var exphbs = require('express-handlebars');
 var mysql = require('mysql');
-var connection = require('./config/connection.js');
-
-//variable to use for express
-var app = express();
 
 var PORT = process.env.PORT || 8080;
-
-app.use(express.static('public'));
+var app = express();
+var htmlRoutes = require('./controllers/htmlroutes.js');
+var apiRoutes = require('./controllers/apiroutes.js');
+var db = require("./models")
 
 app.use(bodyParser.urlencoded({extended: true}));
-
 app.use(bodyParser.json());
+app.use(express.static('public'));
+app.use(htmlRoutes);
+app.use(apiRoutes);
 
-// setup handlebars view main folder default
-app.engine('handlebars', exphbs({defaultLayout: 'main'}));
-app.set('view engine', 'handlebars');
-
-var routes = require('./controllers/on_tap_controllers.js');
-
-app.use(routes);
-
-app.listen(PORT, function(){
-    console.log('Server listening on localhost: ' + PORT);
+db.sequelize.sync().then(function(){
+    app.listen(PORT, function(){
+        console.log('Server listening on localhost: ' + PORT);
+    });
 });
