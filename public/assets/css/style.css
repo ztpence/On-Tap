@@ -34,15 +34,7 @@ body {
 	border: none;
 }
 
-<<<<<<< HEAD
-.card-body {
-	background-image: url("assets/images/0161.jpg")
-}
-
-#beer_list_body {
-=======
 .beer_list_body {
->>>>>>> 2477f1feed961e556ccbc2d3af481a640dfee08c
     background-image: url("assets/images/beerWall.jpg");
 
 }

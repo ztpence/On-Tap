@@ -15,15 +15,14 @@ $(function(){
 })
 
 //GET beer and brewery names from DB where beer type matches.
-app.get("/beerList:type", function(req, res) {
-    connection.query("SELECT * FROM beerlist where beer_type = ?", [req.params.type], function(err, result) {
-      var html = "<h1>" + req.params.type + " beers from the East Valley</h1>";
+app.get("/breweryList:city", function(req, res) {
+    connection.query("SELECT * FROM beerlist where city_name = ? SORT BY brewery_name", [req.params.name], function(err, result) {
+      var html = "<h1>" + req.params.name + " Bars and Breweries in the East Valley</h1>";
   //creat HTML table of beers of the desired type
       html += "<ul>";
   
       for (var i = 0; i < result.length; i++) {
-        html += "<li><p>Name: " + result[i].beer_name + "</p>";
-        html += "<p> from: " + result[i].brewery_name + "</p></li>";
+        html += "<li><p>Name: "+ result[i].brewery_name + "</p></li>";
       }  
       html += "</ul>";
   
