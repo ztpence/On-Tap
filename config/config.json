@@ -1,21 +1,21 @@
 {
   "development": {
     "username": "root",
-    "password": null,
+    "password": "dad8710",
     "database": "onTap_db",
     "host": "localhost",
     "dialect": "mysql"
   },
   "test": {
     "username": "root",
-    "password": null,
+    "password": "dad8710",
     "database": "onTap_db",
     "host": "localhost",
     "dialect": "mysql"
   },
   "production": {
     "username": "root",
-    "password": null,
+    "password": "dad8710",
     "database": "onTap_db",
     "host": "localhost",
     "dialect": "mysql"
