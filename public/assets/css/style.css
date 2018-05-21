@@ -38,7 +38,7 @@ body {
 }
 
 
-.read-more:after {
+#read-more:after {
     content: '';
     position: absolute;
     z-index: 1;
