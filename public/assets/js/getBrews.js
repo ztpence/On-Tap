@@ -19,7 +19,7 @@ $('#cityList').on('change', function(event){
               row.addClass("city");
         
               row.append("<td>" + data[i] + "</td>");
-              console.log("19: " + data[i]);
+              //console.log("19: " + data[i]);
                            
               $("#cityTable").append(row);
         

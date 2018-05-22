@@ -9,8 +9,6 @@
 .btn-circle {
 	background-color: #F84221;
 	border: none;
-
-
 }
 
 .jumbotron {
@@ -53,6 +51,10 @@ body {
         margin-bottom: 100px;
 }
 
+.card {
+    margin-bottom: 50px;
+}
+
 th {
     font-style: bold;
     font-size: 1.25rem;
@@ -82,7 +84,6 @@ tr:hover {background-color: #ddd;}
 
 .beer_list_body {
     background-image: url("assets/images/beerWall.jpg");
-
 }
 
 .dropdown {
@@ -99,16 +100,7 @@ tr:hover {background-color: #ddd;}
     animation: jello 1s;
 }
 
-
-
 .text-muted {
 	text-align: center;
 }
 
-
-
-/*.billboard {
-	background-image: url('../images/bartenderTaps.jpg');
-}
-
-/*background-color: #FDD65B;

@@ -2,7 +2,8 @@ var express = require('express');
 var bodyParser = require('body-parser');
 var mysql = require('mysql');
 
-var PORT = process.env.PORT || 8080;
+var PORT = process.env.PORT || 3000;
+
 var app = express();
 var htmlRoutes = require('./controllers/htmlroutes.js');
 var apiRoutes = require('./controllers/apiroutes.js');
