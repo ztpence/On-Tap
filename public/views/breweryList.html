@@ -52,18 +52,21 @@
     <div class="container">
         <div class="col-lg-8">      
             <div class="dropdown">
-                <button class="btn btn-dark btn-lg dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                <!-- <button class="btn btn-dark btn-lg dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                   <strong>City List</strong>
                   <span class="caret"></span>
-                </button>          
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="cityList">
-              <li><a class="dropdown-item" value="Chandler">Chandler</a></li>
-              <li><a class="dropdown-item" value="Gilbert">Gilbert</a></li>
-              <li><a class="dropdown-item" value="Phoenix">Phoenix</a></li>
-              <li><a class="dropdown-item" value="Tempe">Tempe</a></li>
-            </ul>
+                </button>           -->
+                <div class="form-group">
+                    <label for="cityList"><stong>Choose a City:</stong></label>
+                    <select class="form-control" id="cityList"> 
+              <option  value="Chandler">Chandler</option>
+              <option  value="Gilbert">Gilbert</option>
+              <option  value="Phoenix">Phoenix</option>
+              <option  value="Tempe">Tempe</option>
+            </select>
           </div> 
         </div>
+      </div>
       </div>
 
       <nav class="navbar fixed-bottom navbar-light bg-light">          
@@ -113,7 +116,7 @@
                           <option value="Strong Beer">Strong Beer</option>
                           <option value="Saison">Saison</option>
                           <option value="Wheat Beer">Wheat Beer</option>
-                          <option value="Fruity Beer">Fruity Beer</option>
+                          <option value="Fruit Beer">Fruit Beer</option>
                           <option value="Porter">Porter</option>
                           <option value="Stout">Stout</option>
                           <option value="Gose">Gose</option>

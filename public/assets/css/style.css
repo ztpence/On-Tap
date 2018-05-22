@@ -49,6 +49,20 @@ body {
 
 }
 
+tbody {
+background-color: whitesmoke;
+}
+
+#cityList {
+    width: 160px;
+}
+
+#beerList {
+    width: 160px;
+    color: white;
+    background-color: darkslategrey;
+}
+
 .beer_list_body {
     background-image: url("assets/images/beerWall.jpg");
 

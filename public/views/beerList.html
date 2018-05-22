@@ -52,28 +52,38 @@
 <div class="container">
   <div class="col-lg-8">
       <div class="dropdown">
-          <button class="btn btn-dark btn-lg dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-            <strong>Beer Styles</strong>
-            <span class="caret"></span>
-          </button>          
-      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="beerList">
-        <li><a class="dropdown-item" value="Lager">Lager</a></li>
-        <li><a class="dropdown-item" value="Ale">Ale</a></li>
-        <li><a class="dropdown-item" value="Blonde Ale">Blonde Ale</a></li>
-        <li><a class="dropdown-item" value="Pale Ale">Pale Ale</a></li>
-        <li><a class="dropdown-item" value="Red Ale">Red Ale</a></li>
-        <li><a class="dropdown-item" value="Scotch Ale">Scotch Ale</a></li>
-        <li><a class="dropdown-item" value="IPA">IPA</a></li>
-        <li><a class="dropdown-item" value="Strong Beer">Strong Beer</a></li>
-        <li><a class="dropdown-item" value="Saison">Saison</a></li>
-        <li><a class="dropdown-item" value="Wheat Beer">Wheat Beer</a></li>
-        <li><a class="dropdown-item" value="Fruity Beer">Fruity Beer</a></li>
-        <li><a class="dropdown-item" value="Porter">Porter</a></li>
-        <li><a class="dropdown-item" value="Stout">Stout</a></li>
-        <li><a class="dropdown-item" value="Gose">Gose</a></li>
-      </ul>
-    </div> 
+          <div class="form-group">
+            <label for="beerList"><stong>Choose a Style:</stong></label>
+              <select class="form-control" id="beerList">                    
+                <option value="Lager">Lager</option>
+                <option value="Ale">Ale</option>
+                <option value="Blonde Ale">Blonde Ale</option>
+                <option value="Pale Ale">Pale Ale</option>
+                <option value="Red Ale">Red Ale</option>
+                <option value="Scotch Ale">Scotch Ale</option>
+                <option value="IPA">IPA</option>
+                <option value="Strong Beer">Strong Beer</option>
+                <option value="Saison">Saison</option>
+                <option value="Wheat Beer">Wheat Beer</option>
+                <option value="Fruit Beer">Fruity Beer</option>
+                <option value="Porter">Porter</option>
+                <option value="Stout">Stout</option>
+                <option value="Gose">Gose</option>
+              </select>
+          </div>            
+      </div> 
   </div>
+</div>
+
+<div class="container">
+  <table class="table table-stroped">
+    <thead class="thead-dark">
+      <tr>
+        <th scope="col">Beer Name:</th>
+        <th scope="col">Brewed By:</th>
+    </tr>
+  </thead>
+  <tbody id="beerTable"></tbody>
 </div>
 
 <nav class="navbar fixed-bottom navbar-light bg-light">          
@@ -83,6 +93,7 @@
   Add a beer!
       </button>
     </nav>
+    
   </body>
 
       
@@ -123,7 +134,7 @@
                               <option value="Strong Beer">Strong Beer</option>
                               <option value="Saison">Saison</option>
                               <option value="Wheat Beer">Wheat Beer</option>
-                              <option value="Fruity Beer">Fruity Beer</option>
+                              <option value="Fruit Beer">Fruity Beer</option>
                               <option value="Porter">Porter</option>
                               <option value="Stout">Stout</option>
                               <option value="Gose">Gose</option>
