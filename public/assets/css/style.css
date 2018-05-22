@@ -49,6 +49,10 @@ body {
 
 }
 
+.tableContainer {
+        margin-bottom: 100px;
+}
+
 th {
     font-style: bold;
     font-size: 1.25rem;
