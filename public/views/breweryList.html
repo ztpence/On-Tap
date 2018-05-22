@@ -66,8 +66,7 @@
         </div>
       </div>
 
-      <nav class="navbar fixed-bottom navbar-light bg-light">
-          
+      <nav class="navbar fixed-bottom navbar-light bg-light">          
           <div class="container">
               <!-- Button trigger modal -->
         <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal">
@@ -88,35 +87,39 @@
              </button>
            </div>          
            <div class="modal-body">             
-             <form>
-               <div class="form-group">
-                 <label for="exampleInputEmail1">Name</label>
-                 <input type="text" class="form-control" id="inputBeer" aria-describedby="emailHelp" placeholder="Enter beer name">
-               </div>
-               <div class="form-group">
-                 <label for="exampleInputPassword1">Brewery</label>
-                 <input type="" class="form-control" id="exampleInputPassword1" placeholder="Brewery Name">
-               </div> 
-               <div class="form-group">
-                  <label for="exampleFormControlSelect1">Style</label>
-                  <select class="form-control" id="exampleFormControlSelect1">                    
-                       <option value="Lager">Lager</option>
-                       <option value="Ale">Ale</option>
-                       <option value="Blonde Ale">Blonde Ale</option>
-                       <option value="Pale Ale">Pale Ale</option>
-                       <option value="Red Ale">Red Ale</option>
-                       <option value="Scotch Ale">Scotch Ale</option>
-                       <option value="IPA">IPA</option>
-                       <option value="Strong Beer">Strong Beer</option>
-                       <option value="Saison">Saison</option>
-                       <option value="Wheat Beer">Wheat Beer</option>
-                       <option value="Fruity Beer">Fruity Beer</option>
-                       <option value="Porter">Porter</option>
-                       <option value="Stout">Stout</option>
-                       <option value="Gose">Gose</option>
-                    </select>
-                </div>                    
-            </form>        
+              <form>
+                  <div class="form-group">
+                    <label for="inputBeerName">Name</label>
+                    <input type="text" class="form-control" id="inputBeer" aria-describedby="BeerName" placeholder="Enter beer name">
+                  </div>
+                  <div class="form-group">
+                    <label for="inputBreweryName">Brewery</label>
+                    <input type="" class="form-control" id="inputBrewery" placeholder="Enter Brewery Name">
+                  </div> 
+                  <div class="form-group">
+                     <label for="inputBreweryLocation">Location</label>
+                     <input type="" class="form-control" id="inputLocation" placeholder="Enter Brewery Location">
+                   </div> 
+                  <div class="form-group">
+                     <label for="beerTypeList">Style</label>
+                     <select class="form-control" id="beerTypeList">                    
+                          <option value="Lager">Lager</option>
+                          <option value="Ale">Ale</option>
+                          <option value="Blonde Ale">Blonde Ale</option>
+                          <option value="Pale Ale">Pale Ale</option>
+                          <option value="Red Ale">Red Ale</option>
+                          <option value="Scotch Ale">Scotch Ale</option>
+                          <option value="IPA">IPA</option>
+                          <option value="Strong Beer">Strong Beer</option>
+                          <option value="Saison">Saison</option>
+                          <option value="Wheat Beer">Wheat Beer</option>
+                          <option value="Fruity Beer">Fruity Beer</option>
+                          <option value="Porter">Porter</option>
+                          <option value="Stout">Stout</option>
+                          <option value="Gose">Gose</option>
+                       </select>
+                   </div>                    
+               </form> 
           
            <div class="modal-footer">
              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
