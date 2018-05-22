@@ -76,82 +76,66 @@
   </div>
 </div>
 
-<nav class="navbar fixed-bottom navbar-light bg-light">
-  <a class="container">
-      <span class="text-muted">Bob Loblaw's Beer Blog</span>
-  </a>
-  <div class="container">
-      <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-Add a beer!
-    </button>
-  </nav>
-</body>
+<nav class="navbar fixed-bottom navbar-light bg-light">          
+    <div class="container">
+        <!-- Button trigger modal -->
+  <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal">
+  Add a beer!
+      </button>
+    </nav>
+  </body>
 
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" style="z-index: 9000" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-<div class="modal-dialog" role="document">
- <div class="modal-content">
-   <div class="modal-header">
-     <h5 class="modal-title" id="exampleModalLabel">Add a Beer!</h5>
-     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-       <span aria-hidden="true">&times;</span>
-     </button>
-   </div>
-  
-   <div class="modal-body">
-     
-     <form>
-       <div class="form-group">
-         <label for="exampleInputEmail1">Name</label>
-         <input type="text" class="form-control" id="inputBeer" aria-describedby="emailHelp" placeholder="Enter beer name">
-       </div>
-       <div class="form-group">
-         <label for="exampleInputPassword1">Brewery</label>
-         <input type="" class="form-control" id="exampleInputPassword1" placeholder="Brewery Name">
-       </div>      
-       
-             <div class="dropdown">
-                 <button class="btn btn-dark btn-lg dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                   <strong>Beer Styles</strong>
-                   <span class="caret"></span>
-                 </button>          
-             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-               <li><a class="dropdown-item" value="Lager">Lager</a></li>
-               <li><a class="dropdown-item" value="Ale">Ale</a></li>
-               <li><a class="dropdown-item" value="Blonde Ale">Blonde Ale</a></li>
-               <li><a class="dropdown-item" value="Pale Ale">Pale Ale</a></li>
-               <li><a class="dropdown-item" value="Red Ale">Red Ale</a></li>
-               <li><a class="dropdown-item" value="Scotch Ale">Scotch Ale</a></li>
-               <li><a class="dropdown-item" value="IPA">IPA</a></li>
-               <li><a class="dropdown-item" value="Strong Beer">Strong Beer</a></li>
-               <li><a class="dropdown-item" value="Saison">Saison</a></li>
-               <li><a class="dropdown-item" value="Wheat Beer">Wheat Beer</a></li>
-               <li><a class="dropdown-item" value="Fruity Beer">Fruity Beer</a></li>
-               <li><a class="dropdown-item" value="Porter">Porter</a></li>
-               <li><a class="dropdown-item" value="Stout">Stout</a></li>
-               <li><a class="dropdown-item" value="Gose">Gose</a></li>
-             </ul>
-           </div> 
-           <br>
-           <button type="submit this beer" class="btn btn-primary">Submit</button>
-       </div>
-     </form>
-
-   </div>
-   <div class="modal-footer">
-     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-     <div>
-     <button type="button" class="btn btn-primary">Save changes</button>
-     </div>
-   </div>
- </div>
-</div>
-</div> 
-
-
-  
- 
+      
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" style="z-index: 9000" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+             <div class="modal-content">
+               <div class="modal-header">
+                 <h5 class="modal-title" id="exampleModalLabel">Add a Beer!</h5>
+                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                   <span aria-hidden="true">&times;</span>
+                 </button>
+               </div>          
+               <div class="modal-body">             
+                 <form>
+                   <div class="form-group">
+                     <label for="exampleInputEmail1">Name</label>
+                     <input type="text" class="form-control" id="inputBeer" aria-describedby="emailHelp" placeholder="Enter beer name">
+                   </div>
+                   <div class="form-group">
+                     <label for="exampleInputPassword1">Brewery</label>
+                     <input type="" class="form-control" id="exampleInputPassword1" placeholder="Brewery Name">
+                   </div> 
+                   <div class="form-group">
+                      <label for="exampleFormControlSelect1">Style</label>
+                      <select class="form-control" id="exampleFormControlSelect1">                    
+                           <option value="Lager">Lager</option>
+                           <option value="Ale">Ale</option>
+                           <option value="Blonde Ale">Blonde Ale</option>
+                           <option value="Pale Ale">Pale Ale</option>
+                           <option value="Red Ale">Red Ale</option>
+                           <option value="Scotch Ale">Scotch Ale</option>
+                           <option value="IPA">IPA</option>
+                           <option value="Strong Beer">Strong Beer</option>
+                           <option value="Saison">Saison</option>
+                           <option value="Wheat Beer">Wheat Beer</option>
+                           <option value="Fruity Beer">Fruity Beer</option>
+                           <option value="Porter">Porter</option>
+                           <option value="Stout">Stout</option>
+                           <option value="Gose">Gose</option>
+                        </select>
+                    </div>                    
+                </form>        
+              
+               <div class="modal-footer">
+                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                 <button type="submit this beer" class="btn btn-primary">Submit</button>             
+               </div>
+             </div>
+            </div>
+            </div> 
+          </div> 
+              
+             
   <script type="text/javascript" src="assets/js/getBeers.js"></script>
  </html>
