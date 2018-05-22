@@ -49,12 +49,25 @@ body {
 
 }
 
-tbody {
-background-color: whitesmoke;
+th {
+    font-style: bold;
+    font-size: 1.25rem;
 }
 
+td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2;}
+
+tr:nth-child(odd){background-color: whitesmoke;}
+
+tr:hover {background-color: #ddd;}
+
+
 #cityList {
-    width: 160px;
+    width: 100px;
 }
 
 #beerList {
