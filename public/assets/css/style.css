@@ -31,7 +31,7 @@ body {
 
 .card {
 	border: none;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     position: relative;
 }
 
@@ -51,9 +51,6 @@ body {
         margin-bottom: 100px;
 }
 
-.card {
-    margin-bottom: 50px;
-}
 
 th {
     font-style: bold;
@@ -72,11 +69,11 @@ tr:nth-child(odd){background-color: whitesmoke;}
 tr:hover {background-color: #ddd;}
 
 
-#cityList {
+#cityTable {
     width: 100px;
 }
 
-#beerList {
+#beerList, #cityList {
     width: 160px;
     color: white;
     background-color: darkslategrey;
