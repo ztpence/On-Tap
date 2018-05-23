@@ -44,6 +44,7 @@ body {
     left: 0;
     bottom: 0;
     right: 0;
+    margin-bottom: 120px;
 
 }
 
@@ -104,3 +105,8 @@ tr:hover {background-color: #ddd;}
 .display-4 {
     animation: rubberBand 1.5s;
 }
+
+#map {
+    height: 400px;
+    width: 50%;
+ }

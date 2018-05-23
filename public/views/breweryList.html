@@ -27,7 +27,10 @@
     <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet"> 
     <!-- Local CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>title</title>
+    <link rel="stylesheet" href="assets/js/maps.js">
+           
+        
+    <title>Brewery List</title>
   </head>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -64,7 +67,10 @@
             </div>
           </div>
       </div>
-
+      <div class="container">
+        <div col-lg-12>
+          
+          <div col-md-6>
       <div class="container tableContainer">
           <table class="table">
             <thead class="thead-dark">
@@ -75,6 +81,17 @@
               <tbody id="cityTable"></tbody>
           </table>
         </div>
+      </div>
+    
+  
+  
+        <div col-md-6>
+            <div id='map'></div>
+          </div>
+        </div>
+      </div>
+    
+
 
                 
             <nav class="navbar fixed-bottom navbar-light bg-light">          
@@ -135,4 +152,6 @@
             </nav>    
           </body>
     <script type="text/javascript" src="assets/js/getBrews.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDIt4DdhP9s2fNCn9haXpM2SqZDMpfpulc&callback=initMap">
+    </script>
 </html>

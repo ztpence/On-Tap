@@ -5,7 +5,7 @@
 
 $('#beerList').on('change', function(event){
     var beerVal = ($('#beerList').val());
-     console.log(beerVal);
+     //console.log(beerVal);
    
   
     $.get("/api/beers/" + beerVal, function(data) {
